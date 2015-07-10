@@ -3,6 +3,7 @@
     width: 80%;
     margin: 0 auto;
     border: 1px solid black;
+    font-family: Droid Sans;
 }
 
 
@@ -13,11 +14,18 @@
 }
 
 
-.NavBar {
+#NavBarContainer {
     width: 100%;
     height: 75px;
     border: 1px solid black;
-    padding-left: 370px
+}
+
+.NavBar {
+    margin: 0 auto;
+    overflow: auto;
+    height: 75px;
+    width: 600px;
+    padding-left: 100px
 }
 
 .NavBar div {
