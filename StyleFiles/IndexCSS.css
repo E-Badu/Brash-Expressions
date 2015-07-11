@@ -2,42 +2,52 @@
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
     font-family: Droid Sans;
 }
 
 
 .Header {
     width: 100%;
-    height: 150px;
-    border: 1px solid black;
+    height: 100px;
+    }
+
+.Header p {
+    margin: 0 auto;
+    width: 550px;
+    height: 45px;
+    margin-top: 65px;
+    font-size: 45px;
 }
 
 
 #NavBarContainer {
     width: 100%;
-    height: 75px;
-    border: 1px solid black;
+    height: 40px;
+    background-color: #8ACFFF;
 }
 
 .NavBar {
     margin: 0 auto;
     overflow: auto;
-    height: 75px;
-    width: 600px;
-    padding-left: 100px
+    height: 40px;
+    width: 630px;
+    padding-left: 100px;
+   
 }
 
 .NavBar div {
     float: left;
     margin-right: 55px;
-    margin-top: 25px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .FrontPage {
     width: 100%;
     height: 650px;
-    border: 1px solid black;
+    background: url('/images/FrontPageImage.png');
+    background-position: center;
+    
 }
 
 
