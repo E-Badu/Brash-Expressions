@@ -5,6 +5,7 @@
     <title> Pet Project </title>
     <link rel="stylesheet" href="StyleFiles/CSSreset.css" />
     <link rel="stylesheet" href="StyleFiles/IndexCSS.css" />
+    <link rel="stylesheet" href="StyleFiles/bootstrap.min.css"/>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 </head>
 
@@ -18,24 +19,53 @@
            
         </div>
         
-        <section id="NavBarContainer">
-            <div class="NavBar">
-                <div> Home </div>
-                <div> Testimonials </div>
-                <div> Examples </div>
-                <div> Briefs </div>
-                <div> About </div>
-            </div>
-        </section>
+        <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
         
         
         <section class="FrontPage">  
         
-        <div>
+        <div class="BriefInto">
             
-            <center><p> Robert D. Kelly </p></center>
-            <center><p> At Your Service </p></center><br>
-            <center><p> Men watch the action movie, they eat of the beef, and enjoy to look at the bosoms. Passion rules us all. I figure, if I'm responsible for the end of the world, I get to name it. The news isn't there to tell you what happened. It's there to tell you what it wants you to hear or what it thinks you want to hear. You will keep a civil. </p> </center>
+            <p> Robert D. Kelly </p>
+            <p> At Your Service </p><br>
+            <p> Men watch the action movie, they eat of the beef, and enjoy to look at the bosoms. Passion rules us all. I figure, if I'm responsible for the end of the world, I get to name it. The news isn't there to tell you what happened. It's there to tell you what it wants you to hear or what it thinks you want to hear. You will keep a civil. </p> 
 
         
         </div>
