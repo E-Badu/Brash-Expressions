@@ -6,9 +6,10 @@
 }
 
 
-.Header {
+.Header p{
     width: 100%;
-    height: 100px;
+    height: 150px;
+   
     }
 
 .Header p {
