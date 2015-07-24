@@ -15,16 +15,18 @@ body {
 
 .title-screen,
 .jumbotron {
-    height: 400px;
+    height: 740px;
     background-image: url(../../images/Research1.jpg);
     background-size: cover;
     background-position: center;
-    
 }
+
+
 .rob-research {
-    margin-top: 100px;
-    margin: 0 auto;
-    width: 530px;
+    margin-left: 290px;
+    margin-top: 200px;
+    width: 520px;
     text-align: center;
-    color: #FAFAFA;
+    color: #58AAC5;
+    text-shadow: 4px 4px 4px #000000;
 }
