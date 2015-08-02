@@ -15,7 +15,7 @@ body {
 
 .title-screen,
 .jumbotron {
-    height: 740px;
+    height: 760px;
     background-image: url(../../images/Research1.jpg);
     background-size: cover;
     background-position: center;
@@ -34,11 +34,27 @@ body {
 .who-section, .rates-section{
     height: 740px;
     background-color: #CDC3BE;
+    margin-bottom: 35px;
+}
+
+.who-title{
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.who-am-i {
+
+    width: 500px;
+    float: right;
+
 }
 
 .services-section {
     height: 740px;
     background-color: #FAFAFA;
+    margin-bottom: 35px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .footer {
@@ -46,4 +62,5 @@ body {
     background-image: url(../../images/Research1.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 35px;
 }
