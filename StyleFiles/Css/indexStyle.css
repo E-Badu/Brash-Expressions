@@ -31,4 +31,19 @@ body {
     text-shadow: 4px 4px 4px #000000;
 }
 
-@media screen and (max-
+.who-section, .rates-section{
+    height: 740px;
+    background-color: #CDC3BE;
+}
+
+.services-section {
+    height: 740px;
+    background-color: #FAFAFA;
+}
+
+.footer {
+    height: 350px;
+    background-image: url(../../images/Research1.jpg);
+    background-size: cover;
+    background-position: center;
+}
