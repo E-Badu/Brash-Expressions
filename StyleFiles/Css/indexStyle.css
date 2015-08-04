@@ -78,7 +78,23 @@ float: left;
 
 .authors, .lawyers, .academic, .government {
 text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
+}
+
+#author-image {
+ width: 75%;
+}
+
+#lawyer-image {
+    width: 75%;
+}
+
+#academic-image {
+    width: 75%;
+}
+
+#government-image {
+    width: 75%;
 }
 
 .testimonials-title{
@@ -137,8 +153,7 @@ text-align: center;
     .headshot {
        height: 200px;
     
-       
-    }
+}
     
     .who-am-i {
         width: 300px;
@@ -151,6 +166,22 @@ text-align: center;
     
     .services-section {
     height: 840px;
+    }
+    
+    #author-image {
+ width: 75%;
+}
+
+#lawyer-image {
+    width: 75%;
+}
+
+#academic-image {
+    width: 75%;
+}
+    
+    #government-image {
+    width: 75%
     }
     
     .footer {
