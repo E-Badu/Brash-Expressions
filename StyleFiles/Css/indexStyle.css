@@ -18,7 +18,7 @@ body {
 .title-screen,
 .jumbotron {
     height: 760px;
-    background-image: url(../../images/Research1.jpg);
+    background-image: url(../../images/Research1Header.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid black;
@@ -30,7 +30,7 @@ body {
     margin-top: 150px;
     width: 520px;
     text-align: center;
-    color: #58AAC5;
+    color: #FAFAFA;
     text-shadow: 4px 4px 4px #000000;
 }
 
@@ -110,8 +110,8 @@ body {
 }
 
 .footer {
-    height: 350px;
-    background-image: url(../../images/Research1.jpg);
+    height: 250px;
+    background-image: url(../../images/Research1Footer.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 35px;
